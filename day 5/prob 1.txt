@@ -1,0 +1,14 @@
+create table customer (custId int primary key,custName varchar(20),address varchar(20),accountNumber int, balance double);
+
+
+insert into customer(custId,custName,address,accountNumber,balance)values(100,'John','Doe',1234,50000);
+
+
+insert into customer(custId,custName,address,accountNumber,balance)values(102,'billa','Harry',1255,40000);
+
+insert into customer(custId,custName,address,accountNumber,balance)values(102,'jaggu','prashanth',1256,20000);
+
+
+insert into customer(custId,custName,address,accountNumber,balance)values(102,'Balla','prem',1257,10000);
+
+
